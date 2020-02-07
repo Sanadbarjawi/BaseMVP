@@ -1,0 +1,11 @@
+framework module BaseMVP {
+  umbrella header "BaseMVP.h"
+
+  export *
+  module * { export * }
+}
+
+module BaseMVP.Swift {
+    header "BaseMVP-Swift.h"
+    requires objc
+}
