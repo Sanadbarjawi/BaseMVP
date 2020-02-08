@@ -24,10 +24,9 @@ spec.author       = "Sanad Barjawi"
 
 spec.platform     = :ios
 spec.ios.deployment_target = "11.0"
-spec.source = { :git => "https://github.com/Sanadbarjawi/BaseMVP",:branch => "master", :tag => "#{spec.version}" }
+spec.source = { :git => "https://github.com/Sanadbarjawi/BaseMVP.git",:branch => "master", :tag => "#{spec.version}" }
 
 spec.ios.vendored_frameworks = 'output/BaseMVP.framework'
 spec.exclude_files = "BaseMVP/**/*.plist"
 #spec.source_files  = "BaseMVP/**/*", "BaseMVP/**/*.{h,m}"
-
 end
